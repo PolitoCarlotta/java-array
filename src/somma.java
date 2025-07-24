@@ -4,6 +4,10 @@ public class somma {
 
         //calcola somma di elementi dell'array
 
-        
+        int somma=0;
+        for( int i=0; i<=numeri.length; i++){
+            somma += i;
+        }
+        System.out.println("la somma dell'array è: " + somma);
     }
 }
