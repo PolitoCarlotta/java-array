@@ -1,7 +1,4 @@
 
-import javax.print.attribute.standard.PresentationDirection;
-import jdk.jshell.spi.ExecutionControl;
-
 public class inizialeNome {
     public static void main(String[] args) {
         String [] persone = {"Anna", "Luca", "Alberto", "Giulia", "Andrea"};
