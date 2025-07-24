@@ -12,7 +12,12 @@ public class fattoriale {
         //calcolare il suo fattoriale
         int fattoriale = 1;
         for (int i = numero; i >0; i--) {
-
+            System.out.print(i);
+            if(i>1){
+                System.out.print("*");
+            }
+            fattoriale *=i;
         }
+        System.out.println(" = " + fattoriale);
     }
 }
