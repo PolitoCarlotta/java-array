@@ -3,7 +3,7 @@ public class massimo {
         //trova massimo valore in un array
 
         int [] numeri = {1, 2, 3, 4, 5};
-        int massimo = numeri[0];
+        int massimo = 0;
         for( int i=0; i<numeri.length; i++){
             if(numeri[i]>massimo){
                 massimo = numeri[i];
